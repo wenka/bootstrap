@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- 加入 Bootstrap 核心 css 样式表-->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	
+	<!-- 下拉菜单 -->	
+	<div class="dropdown">
+		<button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" id="dropdownMenu1">
+			DropDown1<span class="caret"></span>
+		</button>
+		
+		<!--  下拉列表  -->
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表1</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表2</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表3</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表4</a></li>
+		</ul>
+	</div>
+	<div class="dropdown">
+		<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown">
+			Dropdown2<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表1</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表2</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表3</a></li>
+			<li role="presentation"><a role="menuitem" tabindex="-1" href="#">列表4</a></li>
+		</ul>
+	</div>
+	
+
+	
+	
+    <!-- 加入 jquery 插件 必须在加入 bootstrap 之前加入 -->
+    <script type="text/javascript" src="jquery-1.10.1.min.js"></script>
+    <!-- 加入 bootstrap 核心 js 库 -->
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
